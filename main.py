@@ -48,6 +48,7 @@ def cargar_LLM(openai_api_key):
 st.set_page_config(page_title="Mejora tu Texto")
 st.header("Mejora tu Texto con IA")
 
+'''
 # Instrucciones
 col1, col2 = st.columns(2)
 
@@ -56,6 +57,13 @@ with col1:
 
 with col2:
     st.write("Contacta con [AI Accelera](https://aiaccelera.com) para desarrollar tus proyectos de IA.")
+'''
+
+# Instrucciones
+col1 = st.columns(1)
+
+with col1:
+    st.markdown("Reescribe tu texto en diferentes estilos.")
 
 # Entrada de la clave de OpenAI
 st.markdown("## Introduce tu clave de OpenAI")

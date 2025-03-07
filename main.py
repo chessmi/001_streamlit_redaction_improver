@@ -60,7 +60,7 @@ with col2:
 '''
 
 # Instrucciones
-col1 = st.columns(1)
+col1, = st.columns(1)
 
 with col1:
     st.markdown("Reescribe tu texto en diferentes estilos.")
